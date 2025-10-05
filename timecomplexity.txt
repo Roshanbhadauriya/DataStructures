@@ -1,0 +1,5 @@
+
+Time Complexity
+
+
+What is the time complexity:- Amount of time taken by an algorithm to run as function of length of input .
