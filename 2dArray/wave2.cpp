@@ -10,14 +10,14 @@ int main() {
       cin >> arr[i][j];
     }
   }
-  for (int i = 0; i < a; i++) {
+  for (int i = 0; i < b; i++) {
     if (i % 2 == 0) {
-      for (int j = 0; j < b; j++) {
-        cout << arr[i][j] << " ";
+      for (int j = 0; j < a; j++) {
+        cout << arr[j][i] << " ";
       }
     } else {
-      for (int k = b - 1; k >= 0; k--) {
-        cout << arr[i][k] << " ";
+      for (int k = a - 1; k >= 0; k--) {
+        cout << arr[k][i] << " ";
       }
     }
   }
